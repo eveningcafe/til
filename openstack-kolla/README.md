@@ -1,2 +1,0 @@
-# Research about OpenStack Kolla.
-
