@@ -11,3 +11,4 @@ A lot of how we're monitoring for problems is probably basically standard in Pro
 - Publish some system-wide information for temperature sensor readings and global disk space, so we have checks to make sure this information is both present at all and not too old.
 - Publish various per-host information through the host agent's `textfile` collector, where you put files of metrics you want to publish in a specific directory, so we check to make sure that these files aren't too stale through the `node_textfile_mtime_seconds` metric.
 - A useful check on Alertmanager because if Alertmanager is down, Prometheus can't send out the alert it detects.
+
