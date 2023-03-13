@@ -1,0 +1,1 @@
+hope somebody take that is easy source to lean k8s than full document 
